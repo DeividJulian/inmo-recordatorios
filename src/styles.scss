@@ -1,0 +1,54 @@
+/* Estilos globales de la app */
+
+.resumen-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 12px 16px 0;
+}
+
+.resumen-card {
+  margin: 0;
+  padding: 14px;
+  border-radius: 14px;
+  ion-icon { font-size: 22px; }
+  .numero { font-size: 28px; font-weight: 700; line-height: 1.1; margin-top: 6px; }
+  .etiqueta { font-size: 13px; opacity: 0.75; }
+}
+
+.titulo-seccion {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ion-color-medium);
+  padding: 18px 16px 6px;
+}
+
+.vacio {
+  text-align: center;
+  padding: 40px 24px;
+  color: var(--ion-color-medium);
+  ion-icon { font-size: 48px; margin-bottom: 8px; }
+}
+
+.precio { font-weight: 700; color: var(--ion-color-primary); }
+
+.dato-fila {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: var(--ion-color-medium);
+  span { display: inline-flex; align-items: center; gap: 4px; }
+}
+
+.chips-scroll {
+  display: flex;
+  overflow-x: auto;
+  padding: 4px 12px;
+  ion-chip { flex-shrink: 0; }
+}
+
+.vencido { color: var(--ion-color-danger); font-weight: 600; }
+.tachado { text-decoration: line-through; opacity: 0.6; }

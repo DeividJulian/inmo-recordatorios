@@ -1,0 +1,19 @@
+/* Modo oscuro según el sistema del celular */
+@import '@ionic/angular/css/palettes/dark.system.css';
+
+/* Colores de la marca (cámbialos por los de la inmobiliaria) */
+:root {
+  --ion-color-primary: #1f4e79;
+  --ion-color-primary-rgb: 31, 78, 121;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #1b456a;
+  --ion-color-primary-tint: #356087;
+
+  --ion-color-secondary: #c8963e;
+  --ion-color-secondary-rgb: 200, 150, 62;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #b08437;
+  --ion-color-secondary-tint: #cea151;
+}
