@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">InmoRecordatorios</string>
+    <string name="title_activity_main">InmoRecordatorios</string>
+    <string name="package_name">com.deividjulian.inmorecordatorios</string>
+    <string name="custom_url_scheme">com.deividjulian.inmorecordatorios</string>
+</resources>
